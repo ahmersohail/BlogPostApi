@@ -45,5 +45,9 @@ namespace BlogPostApi.Data
                 .IsRequired();
 
         }
+
+        public DbSet<BlogPostApi.Models.Category> Category { get; set; }
+
+        public DbSet<BlogPostApi.Models.Post> Post { get; set; }
     }
 }
