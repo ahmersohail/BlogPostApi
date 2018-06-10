@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  blogpostapi:
+    image: ${DOCKER_REGISTRY}blogpostapi
+    build:
+      context: .
+      dockerfile: BlogPostApi\Dockerfile
